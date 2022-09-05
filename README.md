@@ -1,2 +1,2 @@
-# EmailFilter
-Find list difference with DB table
+# Card App
+React App for adding,sorting and deleting cards
