@@ -1,0 +1,61 @@
+.grid-container {
+    border: 2px;
+    border-style:solid;
+    border-color: #3f74a0;
+    width: 600px;
+    height: 548px;
+    display: grid;
+    grid-template-columns: 420px;
+    grid-template-rows: 30px 480px;
+    background-color: #3f74a0;
+    gap: 2px;
+    box-sizing: border-box !important;
+}
+
+.grid-item-intructions {
+    grid-row: 1 / 4;
+    grid-column: 2;
+    text-align: start;
+    display: block !important;
+}
+
+.grid-components {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+.grid-container > div {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(191, 228, 240);
+    display: flex;
+    align-items: center;
+}
+
+.grid-button{
+    display: flex;
+    justify-content: bottom;
+    padding-left: 5px;
+}
+
+button {
+    background-color:  rgb(191, 228, 240);
+    border-collapse: collapse;
+    color: rgb(0, 0, 0);
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
+    margin-left: 5px;
+}
+
+button:hover {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+button:active {
+    transform: scale(0.78);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}

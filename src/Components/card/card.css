@@ -1,0 +1,35 @@
+.card {
+    height: 70px;
+    width: 70px;
+    background-color: rgba(60, 125, 221, 0.966);
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+span {
+    font-Size: 12px;
+    margin: 0px;
+    padding-right: 5px;
+    padding-top: 5px
+}
+
+.xButton {
+    font-Size: 12px;
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    background-color: rgba(89, 148, 238, 0.966);;
+}
+
+.xButton:hover{
+    font-Size: 12px;
+    background-color: rgb(255, 1, 1);;
+}
+
+.spanDiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pDiv {
+    padding-top: 4px;
+}
